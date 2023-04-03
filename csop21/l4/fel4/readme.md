@@ -1,0 +1,5 @@
+jar cvf JARNAME .CLASSES
+java -classpath JARNAME FILES
+
+jar cmvf MANIFEST JARNAME FILES
+java -jar JARNAME
