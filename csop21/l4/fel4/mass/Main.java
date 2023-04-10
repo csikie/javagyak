@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.print("Enter n: ");
         int n = Integer.parseInt(System.console().readLine());
-        Point[] points = new Point[3];
+        Point[] points = new Point[n];
         for (int i = 0; i < points.length; i++) {
             System.out.print("Enter x: ");
             double x = Double.parseDouble(System.console().readLine());

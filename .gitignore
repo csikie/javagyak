@@ -1,3 +1,8 @@
 
 .DS_Store
 *.class
+*.html
+*.png
+*.js
+*.css
+docs
