@@ -6,11 +6,15 @@ public class IntVector {
     int[] numbers;
 
     public IntVector(int[] numbers) {
-        this.numbers = numbers;
+        this.numbers = new int[numbers.length];
+        for (int i = 0; i < numbers.length; i++) {
+            this.numbers[i] = numbers[i];
+        }
+        // Arrays.copyOf(numbers, numbers.length);
     }
 
     public void add(int n) {
-        for (int i = 0; i < numbers.length-1; i++)
+        for (int i = 0; i < numbers.length; i++)
             numbers[i] += n;
     }
 
