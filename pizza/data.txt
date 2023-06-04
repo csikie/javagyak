@@ -1,0 +1,2 @@
+Pizza 1;SMALL;Dough-1-500-g;Tomato-1-200-g
+Pizza 2;MEDIUM;Dough-1-700-g;Tomato-1-250-g
